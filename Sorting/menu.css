@@ -1,0 +1,41 @@
+body{
+    background-color: #eeeeee;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+  }
+  .toggle{
+    background-color: #30bdf2;
+    display: flex;
+    height: 80px;
+    width: 80px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+  }
+  
+  .items>a{
+      display: flex;
+      justify-content: center;
+      height: 80px;
+      width: 80px;
+      background-color:#30bdf2;
+      transform-origin: bottom;
+  }
+  .material-icons{
+    font-size: 70px;
+  }
+  span {
+      content: "\211A";
+      font-size: 50px;
+      display: flex;
+      font-weight: bold;
+      color :white;
+     
+  }
+  span:hover{
+    font-size: 70px;
+  }
